@@ -5,7 +5,7 @@ import time
 
 # Title with emojis
 st.title("💖 Random SEX Position Picker 👉👌🍑OO")
-st.write("Dare to do this in online vc or offline with Boyfriend Is")
+st.write("Dare to do this in online vc or offline with Boyfriend Isu")
 
 # ✅ Corrected CSS embedding for snowfall effect
 st.markdown(
@@ -70,34 +70,44 @@ for i in range(num_emojis):
     """
 
 st.markdown(falling_emojis, unsafe_allow_html=True)
+videos = {
+    "Video 1": "boobbouncing.mp4",  # Replace with actual file paths
+    "Video 2": "boobpressing.mp4"
+}
 
 # List of offline positions with image paths and descriptions
 offline_positions = [
-    {"name": "Missionary", "image": "Missionary.jpg", "description": "A classic face-to-face position allowing deep connection."},
+    {"name": "Missionary", "image": "missionary.jpg", "description": "A classic face-to-face position allowing deep connection."},
     {"name": "Cowgirl", "image": "cowgirl.jpg", "description": "One partner sits while the other is on top, allowing control."},
     {"name": "Doggy Style", "image": "doggy_style.jpg", "description": "A position offering deeper intimacy from behind."},
-    {"name": "Spooning", "image": "Spooning.jpg", "description": "A comfortable side-lying position great for relaxation."},
+    {"name": "Spooning", "image": "spooning.jpg", "description": "A comfortable side-lying position great for relaxation."},
     {"name": "Facesitting", "image": "Facesitting.jpg", "description": "A deeply intimate position with both partners sitting closely."},
     {"name": "fingering", "image": "fingering.jpg", "description": "A deeply intimate position with both partners sitting closely."},
     {"name": "HeadRush", "image": "HeadRush.jpg", "description": "A deeply intimate position with both partners sitting closely."},
     {"name": "Standing", "image": "Standing.jpg", "description": "  A position that requires flexibility and strength."},
     {"name": "Butt Doggy Style", "image": "bouncingbuttdoggystyle.jpg", "description": "A position offering deeper intimacy from behind."},
-    {"name": "Backshots", "image": "Backshots.jpg", "description": "A position offering deeper intimacy from behind."}
+    {"name": "Backshots", "image": "backshots.jpg", "description": "A position offering deeper intimacy from behind."},
+    {"name": "BedFucking", "image": "Bedfucking.jpg", "description": "A position offering deeper intimacy from behind."},
+    {"name": "onfucking", "image": "onfucking.jpg", "description": "A position offering deeper intimacy from behind."},
+    {"name": "tablefucking", "image": "tablefucking.jpg", "description": "A position offering deeper intimacy from behind."},
+    {"name": "lAPSITTING", "image": "Lapsitting.jpg", "description": "."}
+
 ]
 
 # List of online positions with image URLs
 online_positions = [
-    {"name": "Opening Bra and cloth while sitting", "image": "boobs.jpg", "description": "A classic face-to-face position allowing deep connection."},
+    {"name": "Opening Bra and cloth while sitting", "image": "openingshirt.jpg", "description": "A classic face-to-face position allowing deep connection."},
     {"name": "While sitting Boobs bouncing", "image": "boobs.jpg", "description": ""},
     {"name": "While sitting sucking boobs", "image": "boobs.jpg", "description": "."},
     {"name": "Rubbing hands on panties while standing", "image": "boobs.jpg", "description": "."},
     {"name": "Leaning and bounching boobs", "image": "boobs.jpg", "description": "."},
-    {"name": "hand up after opeing bra and top", "image": "boobs.jpg", "description": "."},
+    {"name": "hand up after opeing bra and top", "image": "standing.jpg", "description": "."},
     {"name": "Bouncing boobs", "image": "boobs.jpg", "description": "."},
     {"name": "Legs showing", "image": "boobs.jpg", "description": "."},
     {"name": "Boobs pressing hard", "image": "boobs.jpg", "description": "."},
     {"name": "Boobs exploring", "image": "boobs.jpg", "description": "."},
-    {"name": "Body exploring", "image": "boobs.jpg", "description": "."}
+    {"name": "Body exploring", "image": "boobs.jpg", "description": "."},
+    {"name": "Body exploring", "image": "boobjob.jpg", "description": "."}
 ]
 
 # Select between online or offline positions
@@ -139,7 +149,7 @@ import streamlit as st
 st.markdown("---")
 
 # Made By Section
-made_by = st.markdown("### ❤️ Made with Love by **Raws or baby or chua or su** ❤️")  
+made_by = st.markdown("### ❤️ Made with Love by **Rawsi or baby or chua or isu** ❤️")  
 
 # Why Made Section
 why_made = st.markdown("🌟 *Because some things are worth creating, just like this...* 🌟")  
@@ -162,4 +172,19 @@ message_for_someone = st.markdown(
 
 st.markdown("---")
 
+videos = {
+    "Video 1": "boobpressing.mp4",  # Replace with actual file paths
+}
+selected_video = st.selectbox("Choose a video to play:", list(videos.keys()))
 
+# Display authorization message
+st.warning("This video is Not authorized to view. Do you want to proceed?")
+
+# Ask user if they want to proceed
+play_video = st.radio("Do you want to watch Boobpressing video?", ("No", "Yes"))
+
+# Display the selected video only if user agrees
+if play_video == "Yes":
+    st.video(videos[selected_video])
+else:
+    st.write("You are not authorized to view the video.")
