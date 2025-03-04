@@ -5,7 +5,7 @@ import time
 
 # Title with emojis
 st.title("💖 Random SEX Position Picker 👉👌🍑OO")
-st.write("Dare to do this in online vc or offline with Boyfriend Isu")
+st.write("Dare to do this in online vc or offline with Boyfriend Is")
 
 # ✅ Corrected CSS embedding for snowfall effect
 st.markdown(
@@ -139,7 +139,7 @@ import streamlit as st
 st.markdown("---")
 
 # Made By Section
-made_by = st.markdown("### ❤️ Made with Love by **Rawsi or baby or chua or isu** ❤️")  
+made_by = st.markdown("### ❤️ Made with Love by **Raws or baby or chua or su** ❤️")  
 
 # Why Made Section
 why_made = st.markdown("🌟 *Because some things are worth creating, just like this...* 🌟")  
