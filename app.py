@@ -73,16 +73,16 @@ st.markdown(falling_emojis, unsafe_allow_html=True)
 
 # List of offline positions with image paths and descriptions
 offline_positions = [
-    {"name": "Missionary", "image": "missionary.jpg", "description": "A classic face-to-face position allowing deep connection."},
+    {"name": "Missionary", "image": "Missionary.jpg", "description": "A classic face-to-face position allowing deep connection."},
     {"name": "Cowgirl", "image": "cowgirl.jpg", "description": "One partner sits while the other is on top, allowing control."},
     {"name": "Doggy Style", "image": "doggy_style.jpg", "description": "A position offering deeper intimacy from behind."},
-    {"name": "Spooning", "image": "spooning.jpg", "description": "A comfortable side-lying position great for relaxation."},
+    {"name": "Spooning", "image": "Spooning.jpg", "description": "A comfortable side-lying position great for relaxation."},
     {"name": "Facesitting", "image": "Facesitting.jpg", "description": "A deeply intimate position with both partners sitting closely."},
     {"name": "fingering", "image": "fingering.jpg", "description": "A deeply intimate position with both partners sitting closely."},
     {"name": "HeadRush", "image": "HeadRush.jpg", "description": "A deeply intimate position with both partners sitting closely."},
     {"name": "Standing", "image": "Standing.jpg", "description": "  A position that requires flexibility and strength."},
     {"name": "Butt Doggy Style", "image": "bouncingbuttdoggystyle.jpg", "description": "A position offering deeper intimacy from behind."},
-    {"name": "Backshots", "image": "backshots.jpg", "description": "A position offering deeper intimacy from behind."}
+    {"name": "Backshots", "image": "Backshots.jpg", "description": "A position offering deeper intimacy from behind."}
 ]
 
 # List of online positions with image URLs
