@@ -90,7 +90,11 @@ offline_positions = [
     {"name": "BedFucking", "image": "Bedfucking.jpg", "description": "A position offering deeper intimacy from behind."},
     {"name": "onfucking", "image": "onfucking.jpg", "description": "A position offering deeper intimacy from behind."},
     {"name": "tablefucking", "image": "tablefucking.jpg", "description": "A position offering deeper intimacy from behind."},
-    {"name": "lAPSITTING", "image": "Lapsitting.jpg", "description": "."}
+    {"name": "lAPSITTING", "image": "Lapsitting.jpg", "description": "."},
+    {"name": "Behindfuck", "image": "behindfuck.jpg", "description": "."},
+    {"name": "Pussy Rubbing", "image": "pussyrubb.jpg", "description": "."},
+    {"name": "Sitting Fuck", "image": "sitting.jpg", "description": "."},
+    {"name": "Pussy sitting eat", "image": "sittingeat.jpg", "description": "."}
 
 ]
 
@@ -99,15 +103,17 @@ online_positions = [
     {"name": "Opening Bra and cloth while sitting", "image": "openingshirt.jpg", "description": "A classic face-to-face position allowing deep connection."},
     {"name": "While sitting Boobs bouncing", "image": "boobs.jpg", "description": ""},
     {"name": "While sitting sucking boobs", "image": "boobs.jpg", "description": "."},
-    {"name": "Rubbing hands on panties while standing", "image": "boobs.jpg", "description": "."},
-    {"name": "Leaning and bounching boobs", "image": "boobs.jpg", "description": "."},
+    {"name": "Rubbing hands on panties while standing", "image": "rubinpant.jpg", "description": "."},
+    {"name": "Leaning and bounching boobs", "image": "bend.jpg", "description": "."},
     {"name": "hand up after opeing bra and top", "image": "standing.jpg", "description": "."},
     {"name": "Bouncing boobs", "image": "boobs.jpg", "description": "."},
     {"name": "Legs showing", "image": "boobs.jpg", "description": "."},
     {"name": "Boobs pressing hard", "image": "boobs.jpg", "description": "."},
     {"name": "Boobs exploring", "image": "boobs.jpg", "description": "."},
-    {"name": "Body exploring", "image": "boobs.jpg", "description": "."},
-    {"name": "Body exploring", "image": "boobjob.jpg", "description": "."}
+    {"name": "Naked standing", "image": "naked.jpg", "description": "."},
+    {"name": "Blow job", "image": "blowjob.jpg", "description": "."},
+    {"name": "sitting and holding boobs", "image": "boobhold.jpg", "description": "."},
+    {"name": "Moaning", "image": "moaning.jpg", "description": "."},
 ]
 
 # Select between online or offline positions
@@ -174,7 +180,15 @@ st.markdown("---")
 
 videos = {
     "Video 1": "boobpressing.mp4", 
-    "Video 2": "boobbouncing.mp4",# Replace with actual file paths
+    "Video 2":"boobbouncing.mp4",
+    "Video 3":"standing.mp4",
+    "Video 4":"fi.mp4",
+    "Video 5":"rubbing.mp4",
+    "Video 6":".mp4",
+    "Video 7":".mp4",
+    "Video 8":".mp4"
+
+     # Replace with actual file paths
 }
 selected_video = st.selectbox("Choose a video to play:", list(videos.keys()))
 
