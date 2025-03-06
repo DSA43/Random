@@ -173,7 +173,8 @@ message_for_someone = st.markdown(
 st.markdown("---")
 
 videos = {
-    "Video 1": "boobpressing.mp4",  # Replace with actual file paths
+    "Video 1": "boobpressing.mp4", 
+    "Video 2": "boobbouncing.mp4",# Replace with actual file paths
 }
 selected_video = st.selectbox("Choose a video to play:", list(videos.keys()))
 
