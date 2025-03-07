@@ -90,7 +90,7 @@ offline_positions = [
     {"name": "HeadRush", "image": "HeadRush.jpg", "description": "A deeply intimate position with both partners sitting closely."},
     {"name": "Standing", "image": "Standing.jpg", "description": "  A position that requires flexibility and strength."},
     {"name": "Butt Doggy Style", "image": "bouncingbuttdoggystyle.jpg", "description": "A position offering deeper intimacy from behind."},
-    {"name": "Backshots", "image": "backshots.jpg", "description": "A position offering deeper intimacy from behind."},
+    {"name": "Backshots", "image": "Backshots.jpg", "description": "A position offering deeper intimacy from behind."},
     {"name": "BedFucking", "image": "Bedfucking.jpg", "description": "A position offering deeper intimacy from behind."},
     {"name": "onfucking", "image": "onfucking.jpg", "description": "A position offering deeper intimacy from behind."},
     {"name": "tablefucking", "image": "tablefucking.jpg", "description": "A position offering deeper intimacy from behind."},
