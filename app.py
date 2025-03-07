@@ -49,7 +49,11 @@ emoji_list = ['💖','💋','😘',
     "Gand",
     "Chuchi",
     "penis",
-    "navel"
+    "navel",
+    "fuck you",
+    "chudimi",
+    "boobs squeezing",
+    "pussy eating"
 
 ]
 num_emojis = 50  # Number of falling emojis
