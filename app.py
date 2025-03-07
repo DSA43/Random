@@ -130,7 +130,7 @@ if st.button("👉👌🍑 Pick a Position"):
     
     # Rolling dice animation effect
     for i in range(3):
-        placeholder.subheader(f"🎲 Rolling the dice{'.' * (i+1)}")
+        placeholder.subheader(f"🎲 🤤Rolling the dice{'🤤boobies...' * (i+1)}")
         time.sleep(0.5)
     
     placeholder.empty()  # Clear the rolling text
@@ -140,7 +140,7 @@ if st.button("👉👌🍑 Pick a Position"):
     else:
         selected = random.choice(online_positions)
     
-    st.subheader(f"✨ Selected Position: {selected['name']} ✨")
+    st.subheader(f"✨ 🤤Selected Position: {selected['name']} ✨")
     st.write(selected["description"])
     
     # Display the image
