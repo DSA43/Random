@@ -177,13 +177,15 @@ message_for_someone = st.markdown(
 )
 
 st.markdown("---")
+st.title("💖WARNING:- ONLY IF YOU ARE COMFORTABLE THEN PROCEED TO VIDEO BECAUSE I RESPECT YOU AND LOVE YOU 💖.")
+st.write("All are these for fun only between you and me and i love you gorgeous no one is sexy than you")
 
 videos = {
     "Video 1": "boobpressing.mp4", 
     "Video 2":"boobbouncing.mp4",
-    "Video 3":"standing.mp4",
-    "Video 4":"fi.mp4",
-    "Video 5":"rub.mp4",
+    "Video 3":"rub.mp4",
+    "Video 4":"standing.mp4",
+    "Video 5":"fi.mp4",
     "Video 6":".mp4",
     "Video 7":".mp4",
     "Video 8":".mp4"
