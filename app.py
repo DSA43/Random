@@ -41,19 +41,19 @@ emoji_list = ['💖','💋','😘',
     "😈",  # Smiling Devil
     "🙈",  # Hiding Monkey Face
     "😉",  # Wink Face
-    "🤤",  # Drooling Face
-    "Boobs",
-    "Dhudho",
-    "Lund",
-    "Chut",
-    "Gand",
-    "Chuchi",
-    "penis",
-    "navel",
-    "fuck you",
-    "chudimi",
-    "boobs squeezing",
-    "pussy eating"
+    "🤤"  # Drooling Face
+    # "Boobs",
+    # "Dhudho",
+    # "Lund",
+    # "Chut",
+    # "Gand",
+    # "Chuchi",
+    # "penis",
+    # "navel",
+    # "fuck you",
+    # "chudimi",
+    # "boobs squeezing",
+    # "pussy eating"
 
 ]
 num_emojis = 50  # Number of falling emojis
@@ -118,6 +118,12 @@ online_positions = [
     {"name": "Blow job", "image": "blowjob.jpg", "description": "."},
     {"name": "sitting and holding boobs", "image": "boobhold.jpg", "description": "."},
     {"name": "Moaning", "image": "moaning.jpg", "description": "."},
+    {"name": "DARE:Boob Showing Now","description":"right now show your boobs"},
+    {"name": "DARE:Penis Showing Now","description":"right now show your Penis"},
+    {"name": "DARE:Bra showing","description":"right now show your bra"}
+    # {"name": "DARE:","description":"right now show your boobs"},
+    
+    
 ]
 
 # Select between online or offline positions
@@ -130,7 +136,7 @@ if st.button("👉👌🍑 Pick a Position"):
     
     # Rolling dice animation effect
     for i in range(3):
-        placeholder.subheader(f"🎲 🤤Rolling the dice{'🤤.' * (i+1)}")
+        placeholder.subheader(f"🎲 Rolling the dice{'.' * (i+1)}")
         time.sleep(0.5)
     
     placeholder.empty()  # Clear the rolling text
@@ -140,7 +146,7 @@ if st.button("👉👌🍑 Pick a Position"):
     else:
         selected = random.choice(online_positions)
     
-    st.subheader(f"✨ 🤤Selected Position: {selected['name']} ✨")
+    st.subheader(f"✨ Selected Position: {selected['name']} ✨")
     st.write(selected["description"])
     
     # Display the image
